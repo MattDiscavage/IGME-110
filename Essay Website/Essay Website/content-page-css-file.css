@@ -1,0 +1,104 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+
+    background-color: #000000;
+
+}
+
+/* following code taken from https://www.w3schools.com/css/css_navbar.asp */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10cm;
+  background-color: #AAAAAA;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+/* also taken from https://www.w3schools.com/css/css_navbar.asp */
+li a {
+  display: block;
+}
+
+#main {
+  
+    max-width: 1500px;
+
+    margin-top: 0cm;
+
+    margin-left: 10.5cm;
+    
+    height: 90%;
+
+    font-family: 'Lato', sans-serif;
+
+    background-color: #60DFFF;
+}
+
+#footer {
+  
+    max-width: 1500px;
+
+    margin-top: 0cm;
+
+    margin-left: 10.5cm;
+    
+    height: 50px;
+
+    font-family: 'Lato', sans-serif;
+
+    text-align: center;
+    
+    background-color: #999999;
+}
+
+img {
+
+    float: right;
+    
+    padding-right: 0.5cm;
+    
+    max-width: 410px;
+
+    margin: 0 auto;
+
+}
+
+
+
+h1 {
+
+  font-size: 7.5em;
+
+}
+
+
+
+h2 {
+
+  font-size: 5em;
+
+}
+
+h3 {
+    
+  font-size: 3.5em;
+
+}
+
+p,ul,ol,dl,address {
+
+  font-size: 2em;
+
+}
+
+
+
+p, li, dd, dt, address {
+
+  line-height: 1.5;
+
+}
